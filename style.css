@@ -28,22 +28,32 @@ padding: 2em;
 border-radius: 1%;
 box-shadow: 2px 2px 4px #ddd;
 }
-li{
+nav li{
     list-style-type: none;
-    display: inline-block;
-    padding: 1em;
-    border: 1px solid #eee;
-    width: fit-content;
-    margin:none;
-    
-}
-.more-articles>p{
-display: inline-block;
-width: fit-content;
+    padding: 0 0.5em;  
+    display: inline-block; 
 }
 
-nav{
-    position:sticky;
-    top 0;
-    background-color: white;
-}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+ }
+  nav a {
+      font-size: 0.7em;
+      color: #777;
+  }  
+  nav{
+      border-top: 1px solid#eee;
+      border-bottom: 1px solid #eee;
+      padding: 5px 0;
+      margin: 1em 0;
+      position: sticky;
+      top: 0;
+      background-color: white;
+  }
+  .more-articles section{
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
+    }
